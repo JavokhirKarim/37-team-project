@@ -76,6 +76,10 @@ body header .container nav .bottom {
   padding-bottom: 20px;
 }
 
+body header .container nav .bottom .svg {
+  display: none;
+}
+
 body header .container nav .bottom .nav-links {
   display: flex;
   flex-direction: row;
@@ -127,6 +131,19 @@ body header .container nav .bottom .nav-btns .btn2 {
   background-color: #ffc000;
 }
 
+@media (max-width: 920px) {
+  body header .container nav .bottom .svg {
+    display: block;
+  }
+  body header .container nav .bottom .nav-btns {
+    display: none;
+  }
+}
+@media (max-width: 542px) {
+  body header .container nav .bottom .nav-links {
+    display: none;
+  }
+}
 body footer {
   background-color: white;
   padding-top: 46px;
@@ -263,6 +280,14 @@ body footer .footer-container .footer-content .footer-right ul .head {
   padding-bottom: 16px;
 }
 
+@media (max-width: 542px) {
+  body footer .footer-container .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -320,6 +345,10 @@ body header .container nav .bottom {
   padding-bottom: 20px;
 }
 
+body header .container nav .bottom .svg {
+  display: none;
+}
+
 body header .container nav .bottom .nav-links {
   display: flex;
   flex-direction: row;
@@ -371,6 +400,19 @@ body header .container nav .bottom .nav-btns .btn2 {
   background-color: #ffc000;
 }
 
+@media (max-width: 920px) {
+  body header .container nav .bottom .svg {
+    display: block;
+  }
+  body header .container nav .bottom .nav-btns {
+    display: none;
+  }
+}
+@media (max-width: 542px) {
+  body header .container nav .bottom .nav-links {
+    display: none;
+  }
+}
 body footer {
   background-color: white;
   padding-top: 46px;
@@ -507,6 +549,14 @@ body footer .footer-container .footer-content .footer-right ul .head {
   padding-bottom: 16px;
 }
 
+@media (max-width: 542px) {
+  body footer .footer-container .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
 header .navbar .togl {
   position: absolute;
   display: flex;
