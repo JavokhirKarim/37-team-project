@@ -1868,6 +1868,91 @@ main .kardlar .kard-kontents .trend-cards .t-card:hover {
     text-align: center;
   }
 }
+.page11 .page11-section {
+  margin-top: 200px;
+}
+
+.page11 .page11-section .container .page11-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 129px;
+  align-items: start;
+}
+
+.page11 .page11-section .container .page11-content .i-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page11 .page11-section .container .page11-content .i-1 a {
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  width: 263px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--yellow, #ffc000);
+}
+
+.page11 .page11-section .container .page11-content .i-2 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.page11 .page11-section .container .page11-content .i-2 h6 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.page11 .page11-section .container .page11-content .i-2 input {
+  width: 263px;
+  height: 40px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.page11 .page11-section .container .page11-content .i-3 h6 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.page11 .page11-section .container .page11-content .i-3 input {
+  width: 263px;
+  height: 40px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
 .page12-hero1 {
   padding-top: 50px;
   height: 650px;
