@@ -294,6 +294,7 @@ body footer .footer-container .footer-content .footer-right ul .head {
     gap: 40px;
   }
 }
+<<<<<<< HEAD
 main {
   margin-top: 110px;
 }
@@ -794,6 +795,75 @@ main .off .container .off-content .p21 {
   }
   main .imperia .containerr .imperia-content .left {
     display: none;
+=======
+.umars-pages {
+  margin-top: 64px;
+}
+
+.umars-pages .s-1 {
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+}
+
+.umars-pages .s-1 .container .info-text {
+  margin-bottom: 24px;
+}
+
+.umars-pages .s-1 .container .info-text .info-h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 47.6px;
+  letter-spacing: 0.25px;
+}
+
+.umars-pages .s-1 .container .info-content {
+  display: grid;
+  grid-template-columns: 264px 264px 264px 264px;
+  grid-template-rows: 334px 334px 334px;
+  gap: 30px;
+}
+
+.umars-pages .s-1 .container .info-content .info-item {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.umars-pages .s-1 .container .info-content .info-item .info-h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32.5px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1103px) {
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px 264px 264px;
+    grid-template-rows: 334px 334px 334px 334px;
+  }
+}
+@media (max-width: 834px) {
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px 264px;
+    grid-template-rows: 334px 334px 334px 334px 334px;
+  }
+}
+@media (max-width: 834px) {
+  .umars-pages .s-1 .container .info-text .info-h2 {
+    font-size: 34px;
+  }
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px;
+    grid-template-rows: 334px 334px 334px 334px 334px 334px;
+>>>>>>> ef26e6140ee344e9086cd68dd50c10fe33332adb
   }
 }
 .page4-hero1 {
@@ -1598,6 +1668,81 @@ main .kardlar .kard-kontents .trend-cards .t-card:hover {
     text-align: center;
   }
 }
+.page5-l1 {
+  width: 260px;
+  height: 1200px;
+}
+
+.page5-hero1 {
+  height: 1500px;
+  margin: 100px 0px 0px 0px;
+}
+
+.page5-p1 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0px 0px 20px;
+}
+
+.page5-p2 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 10px 0px 0px 20px;
+  letter-spacing: 0.15px;
+}
+
+.page5-img1 {
+  margin: -20px 0px 0px 220px;
+  position: absolute;
+}
+
+.page5-btn1 {
+  width: 212px;
+  height: 40px;
+  background-color: #ffc000;
+  border: none;
+  margin: 10px 0px 0px 20px;
+  cursor: pointer;
+}
+
+.page5-m1 {
+  width: 264px;
+  height: 362px;
+  border-radius: 12px;
+}
+
+.page5-ob1 {
+  display: flex;
+}
+
+.page5-l2 {
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.page5-l3 {
+  margin: 440px 0px 0px -890px;
+  display: flex;
+  gap: 50px;
+}
+
+.page5-l4 {
+  margin: 840px 0px 0px -890px;
+  display: flex;
+  gap: 50px;
+}
+
 .page12-hero1 {
   padding-top: 50px;
   height: 650px;
