@@ -1153,6 +1153,81 @@ main .kardlar .kard-kontents .trend-cards .t-card:hover {
     text-align: center;
   }
 }
+.page5-l1 {
+  width: 260px;
+  height: 1200px;
+}
+
+.page5-hero1 {
+  height: 1500px;
+  margin: 100px 0px 0px 0px;
+}
+
+.page5-p1 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0px 0px 20px;
+}
+
+.page5-p2 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 10px 0px 0px 20px;
+  letter-spacing: 0.15px;
+}
+
+.page5-img1 {
+  margin: -20px 0px 0px 220px;
+  position: absolute;
+}
+
+.page5-btn1 {
+  width: 212px;
+  height: 40px;
+  background-color: #ffc000;
+  border: none;
+  margin: 10px 0px 0px 20px;
+  cursor: pointer;
+}
+
+.page5-m1 {
+  width: 264px;
+  height: 362px;
+  border-radius: 12px;
+}
+
+.page5-ob1 {
+  display: flex;
+}
+
+.page5-l2 {
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.page5-l3 {
+  margin: 440px 0px 0px -890px;
+  display: flex;
+  gap: 50px;
+}
+
+.page5-l4 {
+  margin: 840px 0px 0px -890px;
+  display: flex;
+  gap: 50px;
+}
+
 .page12-hero1 {
   padding-top: 50px;
   height: 650px;
