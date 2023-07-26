@@ -280,7 +280,6 @@ body footer .footer-container .footer-content .footer-right ul .head {
   padding-bottom: 16px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 542px) {
   body footer .footer-container .footer-content {
     display: flex;
@@ -289,7 +288,75 @@ body footer .footer-container .footer-content .footer-right ul .head {
     gap: 40px;
   }
 }
-=======
+.umars-pages {
+  margin-top: 64px;
+}
+
+.umars-pages .s-1 {
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+}
+
+.umars-pages .s-1 .container .info-text {
+  margin-bottom: 24px;
+}
+
+.umars-pages .s-1 .container .info-text .info-h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 47.6px;
+  letter-spacing: 0.25px;
+}
+
+.umars-pages .s-1 .container .info-content {
+  display: grid;
+  grid-template-columns: 264px 264px 264px 264px;
+  grid-template-rows: 334px 334px 334px;
+  gap: 30px;
+}
+
+.umars-pages .s-1 .container .info-content .info-item {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.umars-pages .s-1 .container .info-content .info-item .info-h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32.5px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1103px) {
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px 264px 264px;
+    grid-template-rows: 334px 334px 334px 334px;
+  }
+}
+@media (max-width: 834px) {
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px 264px;
+    grid-template-rows: 334px 334px 334px 334px 334px;
+  }
+}
+@media (max-width: 834px) {
+  .umars-pages .s-1 .container .info-text .info-h2 {
+    font-size: 34px;
+  }
+  .umars-pages .s-1 .container .info-content {
+    grid-template-columns: 264px;
+    grid-template-rows: 334px 334px 334px 334px 334px 334px;
+  }
+}
 .page4-hero1 {
   height: 800px;
   padding-top: 60px;
@@ -513,7 +580,6 @@ body footer .footer-container .footer-content .footer-right ul .head {
   margin: 50px 0px 0px 0px;
 }
 
->>>>>>> 96959239c475988faca635f73f31ef914b36fee9
 * {
   margin: 0;
   padding: 0;
