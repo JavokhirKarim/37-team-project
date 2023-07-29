@@ -9,14 +9,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
+.container {
+  max-width: 1180px;
 }
 
 * {
@@ -27,6 +21,24 @@ a {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1180px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1180px;
 }
 
 body .top {
@@ -75,7 +87,7 @@ body header {
 }
 
 body header .container {
-  max-width: 1380px;
+  max-width: 1180px;
 }
 
 body header .container nav .bottom {
@@ -84,6 +96,7 @@ body header .container nav .bottom {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  align-items: center;
 }
 
 body header .container nav .bottom .svg {
@@ -235,6 +248,18 @@ body footer .footer-container .footer-content .footer-left .number ul li {
   letter-spacing: 0.25px;
 }
 
+body footer .footer-container .footer-content .footer-left .number ul li a {
+  color: var(--black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 2 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+
 body footer .footer-container .footer-content .footer-left .number ul .head {
   color: var(--black, #000);
   font-variant-numeric: lining-nums proportional-nums;
@@ -265,6 +290,18 @@ body footer .footer-container .footer-content .footer-right ul {
 body footer .footer-container .footer-content .footer-right ul li {
   list-style: none;
   list-style-position: inside;
+  color: var(--black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 2 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+
+body footer .footer-container .footer-content .footer-right ul li a {
   color: var(--black, #000);
   font-variant-numeric: lining-nums proportional-nums;
   /* Body 2 */
@@ -698,7 +735,7 @@ main .off .container .off-content .p21 {
   padding-top: 170px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   main .home .container .home-content {
     display: flex;
     justify-content: center;
@@ -714,6 +751,11 @@ main .off .container .off-content .p21 {
   }
   main .service {
     background-color: #f2f3f7;
+  }
+  main .service .container .service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   main .service .container .service-content .p8 {
     font-size: 16px;
@@ -798,6 +840,273 @@ main .off .container .off-content .p21 {
   }
   main .imperia .containerr .imperia-content .left {
     display: none;
+  }
+}
+main .onas .container .p5 {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+  padding-top: 64px;
+  padding-bottom: 25px;
+}
+
+main .onas .container .onas-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .onas .container .onas-content .left .p6 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  max-width: 557px;
+  padding-bottom: 24px;
+}
+
+main .onas .container .onas-content .left .p7 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 23.8px */
+  letter-spacing: 0.25px;
+  max-width: 557px;
+}
+
+main .delivery {
+  background-color: #ffffff;
+}
+
+main .delivery .container .service-content {
+  margin-bottom: 100px;
+}
+
+main .delivery .container .service-content .p8 {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  /* H4 Headline */
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+  padding-top: 67px;
+  padding-bottom: 24px;
+}
+
+main .delivery .container .service-content .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+main .delivery .container .service-content .cards .card {
+  height: 144px;
+  width: 294px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  background-color: white;
+}
+
+main .delivery .container .service-content .cards .card .p9 {
+  color: var(--black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 1 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.44px;
+}
+
+main .apps {
+  background-color: #0c0926;
+}
+
+main .apps .container .app-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .apps .container .app-content .iph {
+  margin-top: -175px;
+}
+
+main .apps .container .app-content .app-right .p16 {
+  color: var(--white, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* H4 Headline */
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+  max-width: 754px;
+}
+
+main .apps .container .app-content .app-right .p17 {
+  color: var(--white, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 1 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.44px;
+  max-width: 754px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+main .map .container .map-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+main .map .container .map-content .left .p9 {
+  color: #000;
+  font-family: Inter;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 139.13% */
+  padding-bottom: 65px;
+  max-width: 460px;
+}
+
+main .map .container .map-content .left .lists {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+main .map .container .map-content .left .lists .one {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+main .map .container .map-content .left .lists .one li {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  list-style-type: none;
+  line-height: 32px; /* 177.778% */
+}
+
+@media (max-width: 480px) {
+  main .onas .container .onas-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-items: center;
+  }
+  main .onas .container .onas-content .p6 {
+    align-items: center;
+  }
+  main .onas .container .onas-content .right img {
+    width: 300px;
+  }
+  main .delivery {
+    background-color: #ffffff;
+  }
+  main .delivery .container .service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .delivery .container .service-content .p8 {
+    font-size: 16px;
+  }
+  main .delivery .container .service-content .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    gap: 20px;
+  }
+  main .apps {
+    background-color: #0c0926;
+  }
+  main .apps .container .app-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .apps .container .app-content .iph {
+    margin-top: -75px;
+    width: 123px;
+    text-align: center;
+  }
+  main .map .container .map-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+  }
+  main .map .container .map-content .right iframe {
+    width: 300px;
+  }
+  main .map .container .map-content .left .p9 {
+    color: #000;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px; /* 139.13% */
+    padding-bottom: 65px;
+    max-width: 460px;
+  }
+  main .map .container .map-content .left .lists {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  main .map .container .map-content .left .lists .one {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  main .map .container .map-content .left .lists .one li {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    list-style-type: none;
+    line-height: 32px; /* 177.778% */
   }
 }
 .umars-pages {
@@ -1102,6 +1411,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1180px;
+}
+
 body .top {
   background-color: black;
   text-align: start;
@@ -1148,7 +1461,7 @@ body header {
 }
 
 body header .container {
-  max-width: 1380px;
+  max-width: 1180px;
 }
 
 body header .container nav .bottom {
@@ -1157,6 +1470,7 @@ body header .container nav .bottom {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  align-items: center;
 }
 
 body header .container nav .bottom .svg {
@@ -1308,6 +1622,18 @@ body footer .footer-container .footer-content .footer-left .number ul li {
   letter-spacing: 0.25px;
 }
 
+body footer .footer-container .footer-content .footer-left .number ul li a {
+  color: var(--black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 2 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+
 body footer .footer-container .footer-content .footer-left .number ul .head {
   color: var(--black, #000);
   font-variant-numeric: lining-nums proportional-nums;
@@ -1338,6 +1664,18 @@ body footer .footer-container .footer-content .footer-right ul {
 body footer .footer-container .footer-content .footer-right ul li {
   list-style: none;
   list-style-position: inside;
+  color: var(--black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Body 2 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+
+body footer .footer-container .footer-content .footer-right ul li a {
   color: var(--black, #000);
   font-variant-numeric: lining-nums proportional-nums;
   /* Body 2 */
@@ -1798,7 +2136,7 @@ main .kardlar .kard-kontents .trend-cards .t-card:hover {
 }
 
 .container {
-  max-width: 1450px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 20px;
 }

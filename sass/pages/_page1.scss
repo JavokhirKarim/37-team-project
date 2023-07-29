@@ -326,8 +326,7 @@ main {
         justify-content: space-between;
         padding-bottom: 48px;
         gap: 73px;
-        .left {
-        }
+
         .right {
           display: flex;
           flex-direction: column;
@@ -405,7 +404,7 @@ main {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   main {
     .home {
       .container {
@@ -430,6 +429,9 @@ main {
       background-color: #f2f3f7;
       .container {
         .service-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           .p8 {
             font-size: 16px;
           }
