@@ -2088,6 +2088,209 @@ main .kardlar .kard-kontents .trend-cards .t-card:hover {
   gap: 50px;
 }
 
+.page10 .page-section {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.page10 .page-section .container .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 39px;
+}
+
+.page10 .page-section .container .content .content-item-1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.page10 .page-section .container .content .content-item-1 .h1 {
+  width: 528px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 64px;
+  margin-bottom: 72px;
+}
+
+.page10 .page-section .container .content .content-item-1 .h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+.page10 .page-section .container .content .content-item-1 .h5 {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 44px;
+}
+
+.page10 .page-section .container .content .content-item-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page10 .page-section .container .content .content-item-2 input {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  padding: 14px 224px 14px 24px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  border: 2px solid #dbdee7;
+  outline: none;
+}
+
+.page10 .page-section .container .content .content-item-2 input:first-child {
+  padding: 14px 224px 14px 24px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  border: 2px solid #dbdee7;
+  outline: none;
+}
+
+.page10 .page-section .container .content .content-item-2 .input-last-child {
+  width: 496px;
+  padding: 14px 187px 83px 24px;
+}
+
+.page10 .page-section .container .content .content-item-2 .btn-page10 {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--yellow, #ffc000);
+  width: 262px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+@media (max-width: 1036px) {
+  .page10 .page-section {
+    display: flex;
+    justify-content: center;
+  }
+  .page10 .page-section .container .content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .page10 .page-section .container .content .content-item-1 {
+    align-items: center;
+  }
+  .page10 .page-section .container .content .content-item-1 .h1 {
+    text-align: center;
+  }
+}
+.page11 .page11-section {
+  margin-top: 200px;
+}
+
+.page11 .page11-section .container .page11-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 129px;
+  align-items: start;
+}
+
+.page11 .page11-section .container .page11-content .i-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page11 .page11-section .container .page11-content .i-1 a {
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  width: 263px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--yellow, #ffc000);
+}
+
+.page11 .page11-section .container .page11-content .i-2 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.page11 .page11-section .container .page11-content .i-2 h6 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.page11 .page11-section .container .page11-content .i-2 input {
+  width: 263px;
+  height: 40px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.page11 .page11-section .container .page11-content .i-3 h6 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.page11 .page11-section .container .page11-content .i-3 input {
+  width: 263px;
+  height: 40px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
 .page12-hero1 {
   padding-top: 50px;
   height: 650px;
